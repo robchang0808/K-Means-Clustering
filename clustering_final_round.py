@@ -58,6 +58,7 @@ plt.scatter(centroids[:, 0], centroids[:, 1], c='k', marker='x', label='Cluster 
 
 plt.xlabel('X')
 plt.ylabel('Y')
+plt.title('K-means Clustering After Final Round')
 plt.legend()
 plt.show()
 
